@@ -1,6 +1,9 @@
 def oxford_comma(array)
   nu_string = ""
   nu_word = ""
+  array[0..-2].each do |ele|
+    nu_word
+  
   array.each do |ele|
     nu_word = ele + ", "
     nu_string += nu_word
